@@ -24,9 +24,9 @@ function App() {
     '/image/trA.JPG',
     '/image/trB.JPG',
     '/image/trech3.PNG',
-    './image/calculator.PNG',
+    './image/calculator.JPG',
     '/image/weatheA.JPG',
-    '/image/weatherB.JPG'
+    
     
   ]
   return (

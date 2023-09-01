@@ -5,7 +5,7 @@ function Home() {
     <div className='home'>
       <section id='home'>
       <div className='home-svg'>
-      <svg width="150px" height="200px" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#000000" transform="matrix(-1, 0, 0, 1, 0, 0)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M8 8a48 48 0 0 1 48 48"></path><path d="M8 24a32 32 0 0 1 32 32"></path><path d="M8 40a16 16 0 0 1 16 16"></path></g></svg>
+      <svg className='wifii' width="150px" height="200px" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#000000" transform="matrix(-1, 0, 0, 1, 0, 0)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M8 8a48 48 0 0 1 48 48"></path><path d="M8 24a32 32 0 0 1 32 32"></path><path d="M8 40a16 16 0 0 1 16 16"></path></g></svg>
      <img className='light-bulb' loading='lazy'  src='./Image/invention-icon.PNG' alt='bulb'/>
       </div>
         <div className='home-cen'>

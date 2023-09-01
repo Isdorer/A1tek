@@ -365,13 +365,13 @@ transform: translate(-700%);
         align-items: flex-start;
         justify-content: flex-start;
         position: fixed;
-        top: 145px;
+        top: 87px;
         right: -300px;
         width: 300px;
-        height: 100%;
+        height: 300px;
         background: #2a3239;
         box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
-        padding: 40px 0 0 10px;
+        padding: 20px 0 0 10px;
         transition: 0.3s ease-in-out;
         z-index: 100;
        
@@ -397,9 +397,7 @@ transform: translate(-700%);
     }
 
     
-    .parent {
-        padding: 20px 55px;
-      }
+    
 
 .image-slider .fa-chevron-right {
     font-size: 20px;
@@ -416,14 +414,142 @@ transform: translate(-700%);
             height: 100vh;
         }
 
+        .wifii {
+          position: relative;
+          width: 100px;
+          height: 100px;
+          
+        }
         .light-bulb {
           position: relative;
-          width: 115px;
-          height: 125px;
-          left: 20%;
+          width: 80px;
+          height: 90px;
+          left: 45%;
           top: 180px;
           
         }
+
+        .home {
+          position: relative; /* Required for absolute positioning */
+          height: 70vh;
+          margin: 10px;
+      }
+      .home-cen {
+          margin: 0;
+        }
+      
+      
+      label {
+        font-size: 20PX;
+        font-weight: 600;
+    }
+    
+    .head {
+        padding: 5px;
         
+    }
+    .head h1 {
+        color: #fff;
+        font-size: 30px;
+    }
+       .head svg {
+         height: 70px;
+         width: 70px;
+       }
+
+       #list {
+        gap: 1.5rem;
+        list-style:none;
+        
+    }
+    
+    #list li a{
+        color: #fff;
+        font-size: 1rem;
+        font-weight: 600;
        
+    }
+
+    .about-heading{
+      height: 100vh;
+  }
+  .about-title {
+    font-size: 20px;
+      height: 50px;
+      text-transform: uppercase;
+  } 
+  
+  .about {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      align-items: center;
+      margin: 10px;
+      
+  }
+  .bio {
+      text-align: center;
+      margin: 50px;
+      font-weight: 600;
+  }
+  
+  .svlog {
+      text-align: center;
+      margin: 10px;
+   
+  }
+.verify {
+  width: 50px;
+  height: 50px;
+}  
+
+.my-projects {
+  height: 50vh;
+ 
+}
+
+.projects-title {
+  font-size: 20px;
+    height: 50px;
+
+} 
+
+.grid-item {
+  background-color: rgb(17, 40, 58);
+  height: 50px;
+}
+.grid-item p {
+  color: #fff;
+  float: right;
+  padding: 5px;
+  text-transform: uppercase;
+}
+
+.skills-img {
+  height: 20px;
+  width: 20px;
+  margin: 5px;
+  float: left;
+}
+
+.parent {
+  padding: 10px 45px;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+.image-slider {
+  height: 50vh;
+}
+.bi-snow {
+  width: 50px;
+  height: 50px;
+}
+
+.cont-title h1 {
+  font-size: 20px;
+}
+ .cont-title {
+  font-size: 20px;
+ }
 }
